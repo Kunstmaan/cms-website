@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-353.000000, -35.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-2" transform="translate(353.000000, 34.000000)">
+                <rect id="Rectangle" transform="translate(8.000000, 8.125000) rotate(45.000000) translate(-8.000000, -8.125000) " x="0" y="8" width="16" height="1"></rect>
+                <rect id="Rectangle" transform="translate(8.000000, 8.125000) rotate(-45.000000) translate(-8.000000, -8.125000) " x="0" y="8" width="16" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

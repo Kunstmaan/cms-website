@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="625px" viewBox="0 0 375 625" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="53.1941732%" cy="50%" fx="53.1941732%" fy="50%" r="91.8375975%" gradientTransform="translate(0.531942,0.500000),scale(1.000000,0.793600),rotate(104.520771),translate(-0.531942,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#688DCF" offset="0%"></stop>
+            <stop stop-color="#171C50" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Pages-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <path d="M-60,0 L436,0 L436,581.875 C326.032098,610.625 241.923455,625 183.674072,625 C125.42469,625 44.1999989,610.625 -60,581.875 L-60,0 Z" id="Rectangle"></path>
+        </g>
+    </g>
+</svg>

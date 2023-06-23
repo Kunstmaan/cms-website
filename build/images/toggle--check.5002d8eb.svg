@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>v</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="9.02260638 15.8643617 3.4375 11.6755319 5.11303191 9.44148936 8.46409574 11.9547872 14.3284574 4.1356383 16.5625 5.81117021"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms/Form/toggle/toggle-on" transform="translate(-56.000000, -10.000000)">
+            <g id="Forms/toggle-on">
+                <g id="Group" transform="translate(46.000000, 0.000000)">
+                    <g id="Assets/Icons/Interface/Check" transform="translate(6.885742, 6.127930)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1410px" height="559px" viewBox="0 0 1410 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 33</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages-mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landingpage" transform="translate(-30.000000, -2477.000000)">
+            <g id="Group-33" transform="translate(-10.000000, 2459.716891)">
+                <path d="M553.228318,119.627558 C542.566125,153.557983 592.533654,215.91236 666.807057,179.182991 C741.08046,142.453622 694.059471,158.146907 740.525265,137.293097 C786.99106,116.439286 718.296003,57.4174487 634.234608,38.3709242 C550.173213,19.3243997 563.890512,85.6971329 553.228318,119.627558 Z" id="Path-5-Copy" fill="#F2F2F2" opacity="0.617903647" transform="translate(653.666709, 112.700109) rotate(-336.000000) translate(-653.666709, -112.700109) "></path>
+                <path d="M1260.67441,502.573618 C1248.67953,530.303077 1304.8926,581.261859 1388.44959,551.244978 C1472.00658,521.228097 1419.10834,534.053351 1471.38199,517.010685 C1523.65564,499.96802 1446.37424,451.732737 1351.80584,436.167067 C1257.23745,420.601396 1272.6693,474.844159 1260.67441,502.573618 Z" id="Path-5-Copy" fill="#E8E8E8" opacity="0.2" transform="translate(1373.666803, 496.912197) rotate(-164.000000) translate(-1373.666803, -496.912197) "></path>
+                <g id="Group-3-Copy" transform="translate(1214.000000, 292.283109)" fill="#F0F0F0" fill-rule="nonzero">
+                    <circle id="Oval" cx="112" cy="8" r="8"></circle>
+                    <circle id="Oval-Copy-6" cx="62" cy="16" r="4"></circle>
+                    <circle id="Oval-Copy-7" cx="12" cy="126" r="4"></circle>
+                    <circle id="Oval-Copy" cx="8" cy="24" r="8"></circle>
+                </g>
+                <g id="Group-3-Copy-3" transform="translate(1355.000000, 91.283109)" fill="#F0F0F0" fill-rule="nonzero">
+                    <circle id="Oval-Copy-6" cx="32" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-7" cx="12" cy="174" r="4"></circle>
+                    <circle id="Oval-Copy-15" cx="42" cy="234" r="4"></circle>
+                    <circle id="Oval-Copy-5" cx="82" cy="126" r="8"></circle>
+                    <circle id="Oval-Copy" cx="8" cy="72" r="8"></circle>
+                </g>
+                <g id="Group-3-Copy-4" transform="translate(99.000000, 329.283109) rotate(-210.000000) translate(-99.000000, -329.283109) translate(54.000000, 210.283109)" fill="#F0F0F0" fill-rule="nonzero">
+                    <circle id="Oval-Copy-6" cx="32" cy="4" r="4"></circle>
+                    <circle id="Oval-Copy-7" cx="12" cy="174" r="4"></circle>
+                    <circle id="Oval-Copy-15" cx="42" cy="234" r="4"></circle>
+                    <circle id="Oval-Copy-5" cx="82" cy="126" r="8"></circle>
+                    <circle id="Oval-Copy" cx="8" cy="72" r="8"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

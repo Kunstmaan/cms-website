@@ -1,0 +1,323 @@
+<!DOCTYPE html><!--[if lte IE 9]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 9]><!--><html lang="en"><!--<![endif]--><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>
+                                    Kunstmaan CMS - Features        </title><!-- SEO --><meta name="robots" content="all"><!-- Open Graph --><meta property="og:site_name" content="Kunstmaan CMS"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff"><link rel="stylesheet" href="/build/app.a9b68c8f.css"></head>
+<body id="sidebar-toggle-container" class="sidebar-toggle-container " >
+                <header class="main-header">
+    <div class="main-header__container">
+                <a href="/" class="main-header__logo-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="main-header__logo main-header__logo--desktop" viewBox="0 0 238 48">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#02A0E6" d="M45.073 2.912c-3.88-3.883-10.173-3.883-14.054 0-3.88 3.882-3.88 10.176 0 14.058L38.046 24l7.027-7.03c3.881-3.882 3.881-10.176 0-14.058"/>
+        <path fill="#FA1A57" d="M9.938 19.882a9.905 9.905 0 0 0 7.026-2.911h.001v-.001l2.911-2.911V9.94c0-5.49-4.45-9.94-9.938-9.94S0 4.45 0 9.94c0 5.491 4.45 9.942 9.938 9.942"/>
+        <path class="overlap" fill="#000" d="M45.145 31.117l.008-.008-.603-.603L38.046 24l-7.027-7.03c-3.88-3.882-3.88-10.176 0-14.058l-7.027 7.03-4.116 4.117-2.91 2.91-.001.001a9.904 9.904 0 0 1-7.027 2.912C4.45 19.882 0 15.432 0 9.942v28.116c0-2.544.97-5.088 2.91-7.03 3.882-3.882 10.174-3.882 14.055 0l7.027 7.03 6.504 6.506.603.603.008-.008c3.887 3.8 10.113 3.783 13.966-.072 3.854-3.855 3.871-10.083.072-13.971"/>
+        <path fill="#08D6E5" d="M2.911 31.03c-3.88 3.882-3.88 10.176 0 14.058 3.881 3.882 10.173 3.882 14.054 0l7.027-7.029-7.027-7.03c-3.88-3.882-10.173-3.882-14.054 0"/>
+        <path class="text" fill="#000" d="M78.54 33.654h-2.495l-6.737-6.451v6.451h-1.977v-13.67h1.977v6.221l6.449-6.221h2.438l-6.891 6.605zm11.17-9.677v9.677h-1.88v-1.613a3.203 3.203 0 0 1-1.267 1.296c-.538.301-1.145.452-1.823.452-2.33 0-3.494-1.293-3.494-3.879v-5.933h1.92v5.914c0 .794.162 1.38.49 1.757.326.378.821.566 1.486.566.794 0 1.43-.256 1.91-.768s.72-1.19.72-2.035v-5.434h1.939zm13.378 3.648v6.03h-1.938V27.74c0-.845-.164-1.46-.49-1.844-.326-.384-.848-.576-1.564-.576-.819 0-1.475.257-1.967.768-.493.513-.74 1.198-.74 2.055v5.51H94.47v-6.95c0-1.011-.05-1.92-.153-2.727h1.804l.173 1.67a3.233 3.233 0 0 1 1.334-1.41c.582-.327 1.244-.49 1.986-.49 2.316 0 3.474 1.293 3.474 3.878m4.069 4.936l.576-1.402c1.01.768 2.17 1.152 3.474 1.152.665 0 1.17-.112 1.517-.336a1.07 1.07 0 0 0 .518-.95c0-.346-.119-.617-.356-.816-.237-.198-.637-.368-1.2-.509l-1.612-.384c-.844-.179-1.487-.496-1.928-.95-.442-.455-.662-1.021-.662-1.7 0-.87.348-1.574 1.045-2.111.698-.538 1.622-.807 2.774-.807.69 0 1.346.11 1.967.327a4.56 4.56 0 0 1 1.584.921l-.595 1.363c-.934-.742-1.92-1.113-2.956-1.113-.627 0-1.113.118-1.458.355a1.132 1.132 0 0 0-.519.989c0 .332.108.601.326.806.217.205.563.365 1.037.48l1.65.403c.922.205 1.603.528 2.045.97.44.442.662 1.014.662 1.718 0 .871-.349 1.559-1.046 2.064-.698.506-1.648.759-2.85.759-1.69 0-3.02-.41-3.993-1.23m14.51-7.084v4.858c0 .665.144 1.136.432 1.41.288.276.688.414 1.2.414.332 0 .672-.051 1.017-.154v1.574a4.534 4.534 0 0 1-1.44.212c-.998 0-1.772-.282-2.322-.845s-.825-1.383-.825-2.458v-5.011h-1.881v-1.498h1.88v-2.419l1.94-.672v3.091h2.667v1.498h-2.668zm20.633 2.15v6.03h-1.939V27.72c0-.831-.143-1.44-.43-1.824-.29-.384-.753-.576-1.393-.576-.742 0-1.327.257-1.756.768-.43.513-.643 1.21-.643 2.093v5.472H134.2V27.72c0-.831-.144-1.44-.431-1.824-.288-.384-.752-.576-1.392-.576-.742 0-1.33.257-1.765.768-.436.513-.653 1.21-.653 2.093v5.472h-1.92v-6.95c0-1.011-.05-1.92-.153-2.727h1.804l.173 1.613a3.142 3.142 0 0 1 1.21-1.363c.523-.32 1.138-.48 1.841-.48 1.498 0 2.477.621 2.937 1.862a3.278 3.278 0 0 1 1.296-1.363c.569-.332 1.212-.499 1.928-.499 2.15 0 3.225 1.293 3.225 3.878m10.912 3.716c.48-.607.72-1.461.72-2.563 0-1.113-.24-1.97-.72-2.572-.48-.602-1.162-.903-2.045-.903-.87 0-1.551.31-2.044.931-.492.622-.739 1.482-.739 2.583 0 1.088.247 1.933.739 2.534.493.602 1.18.903 2.063.903.87 0 1.546-.304 2.026-.912zm2.639-7.363v9.677h-1.92v-1.65a2.964 2.964 0 0 1-1.257 1.324c-.556.307-1.206.46-1.948.46-.857 0-1.61-.204-2.256-.614-.646-.41-1.148-.989-1.506-1.737-.359-.75-.538-1.623-.538-2.621 0-.999.183-1.882.548-2.65.364-.768.873-1.363 1.526-1.785.652-.423 1.394-.634 2.226-.634.742 0 1.388.157 1.938.47.55.314.973.759 1.267 1.335v-1.575h1.92zm10.969 7.363c.48-.607.72-1.461.72-2.563 0-1.113-.24-1.97-.72-2.572-.48-.602-1.162-.903-2.045-.903-.87 0-1.551.31-2.044.931-.492.622-.74 1.482-.74 2.583 0 1.088.248 1.933.74 2.534.493.602 1.18.903 2.063.903.87 0 1.546-.304 2.026-.912zm2.639-7.363v9.677h-1.92v-1.65a2.964 2.964 0 0 1-1.257 1.324c-.556.307-1.206.46-1.948.46-.857 0-1.61-.204-2.256-.614-.646-.41-1.148-.989-1.506-1.737-.359-.75-.538-1.623-.538-2.621 0-.999.183-1.882.548-2.65.364-.768.872-1.363 1.526-1.785.652-.423 1.394-.634 2.226-.634.742 0 1.388.157 1.938.47.55.314.973.759 1.267 1.335v-1.575h1.92zm13.377 3.648v6.03h-1.938V27.74c0-.845-.164-1.46-.49-1.844-.326-.384-.848-.576-1.564-.576-.819 0-1.475.257-1.968.768-.492.513-.738 1.198-.738 2.055v5.51h-1.92v-6.95c0-1.011-.05-1.92-.153-2.727h1.804l.173 1.67a3.233 3.233 0 0 1 1.333-1.41c.583-.327 1.245-.49 1.987-.49 2.316 0 3.474 1.293 3.474 3.878m14.462 5.329c-.979-.57-1.73-1.379-2.255-2.428-.525-1.05-.787-2.291-.787-3.725 0-1.421.262-2.656.787-3.706.524-1.049 1.276-1.855 2.255-2.419.98-.563 2.127-.845 3.445-.845.934 0 1.801.144 2.601.432.8.288 1.475.708 2.025 1.258l-.69 1.459c-.641-.525-1.271-.906-1.892-1.142a5.634 5.634 0 0 0-2.024-.356c-1.42 0-2.518.461-3.293 1.383-.774.921-1.16 2.234-1.16 3.936 0 1.715.386 3.037 1.16 3.965.775.928 1.872 1.392 3.293 1.392.729 0 1.404-.118 2.024-.356.621-.236 1.251-.617 1.891-1.142l.691 1.46c-.55.55-1.225.969-2.025 1.257-.8.288-1.667.432-2.6.432-1.319 0-2.467-.285-3.446-.855m23.982-12.969h1.593v13.67h-1.785v-9.389l-4.049 9.389h-1.364l-4.107-9.331.02 9.331h-1.785v-13.67h1.592l4.972 11.289zm8.282 13.401a6.309 6.309 0 0 1-2.274-1.267l.71-1.459c.665.538 1.356.928 2.073 1.171.716.244 1.522.365 2.418.365 1.024 0 1.817-.192 2.38-.576.563-.384.845-.928.845-1.632 0-.588-.263-1.033-.787-1.334-.525-.3-1.356-.58-2.496-.836-1.087-.23-1.976-.495-2.667-.796-.692-.3-1.235-.704-1.632-1.21-.397-.505-.595-1.155-.595-1.949 0-.793.211-1.494.634-2.102.421-.608 1.02-1.082 1.794-1.421.774-.339 1.667-.509 2.678-.509.96 0 1.858.148 2.696.442.838.295 1.539.71 2.102 1.248l-.71 1.459c-.627-.525-1.273-.912-1.939-1.162a6.017 6.017 0 0 0-2.13-.374c-.986 0-1.76.208-2.322.624-.564.416-.845.983-.845 1.7 0 .614.246 1.081.739 1.4.492.321 1.283.609 2.37.865 1.14.256 2.06.525 2.764.806.704.282 1.267.666 1.69 1.152.422.487.632 1.114.632 1.882 0 .794-.21 1.485-.633 2.073-.422.59-1.027 1.047-1.813 1.373-.787.327-1.712.49-2.774.49s-2.032-.141-2.908-.423"/>
+    </g>
+</svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="main-header__logo main-header__logo--mobile" viewBox="0 0 48 48">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#02A0E6" d="M45.073 2.912c-3.88-3.883-10.173-3.883-14.054 0-3.88 3.882-3.88 10.176 0 14.058L38.046 24l7.027-7.03c3.881-3.882 3.881-10.176 0-14.058"/>
+        <path fill="#FA1A57" d="M9.938 19.882a9.905 9.905 0 0 0 7.026-2.911h.001v-.001l2.911-2.911V9.94c0-5.49-4.45-9.94-9.938-9.94S0 4.45 0 9.94c0 5.491 4.45 9.942 9.938 9.942"/>
+        <path fill="#2BBEFF" d="M45.145 31.117l.008-.008-.603-.603L38.046 24l-7.027-7.03c-3.88-3.882-3.88-10.176 0-14.058l-7.027 7.03-4.116 4.117-2.91 2.91-.001.001a9.904 9.904 0 0 1-7.027 2.912C4.45 19.882 0 15.432 0 9.942v28.116c0-2.544.97-5.088 2.91-7.03 3.882-3.882 10.174-3.882 14.055 0l7.027 7.03 6.504 6.506.603.603.008-.008c3.887 3.8 10.113 3.783 13.966-.072 3.854-3.855 3.871-10.083.072-13.971"/>
+        <path fill="#08D6E5" d="M2.911 31.03c-3.88 3.882-3.88 10.176 0 14.058 3.881 3.882 10.173 3.882 14.054 0l7.027-7.029-7.027-7.03c-3.88-3.882-10.173-3.882-14.054 0"/>
+    </g>
+</svg>
+        </a>
+
+        <div class="main-header__nav">
+    <button class="main-header__nav__close-mobile-nav js-mobile-nav-close">
+        <svg width="16" height="15" viewBox="0 0 16 15" xmlns="http://www.w3.org/2000/svg">
+    <g fill-rule="nonzero">
+        <path d="M2.432-.034L15.16 12.693l-2.12 2.123L.308 2.086l2.123-2.12zm-.001 2.121h.708l-.707.707-.001-.707zm10.606 9.9v.707h-.705l.705-.708z"/>
+        <path d="M.84 12.693L13.569-.034l2.123 2.12L2.962 14.815.841 12.693zM12.862 2.088h.708v.705l-.708-.705zm-9.899 9.898l.707.707-.707.707-.707-.707.707-.707z"/>
+    </g>
+</svg>
+    </button>
+    <nav class="main-nav">
+                <ul>
+            <li>
+                <a href="#" data-micromodal-trigger="modal-demo-time">Demo</a>
+            </li>
+                                                                                                <li>
+                    <a href="/features/index.html">Features</a>
+                </li>
+                                                            <li>
+                    <a href="https://kunstmaanbundlescms.readthedocs.io/en/latest/" target="_blank" rel="noopener">Documentation</a>
+                </li>
+                    </ul>
+    </nav>
+    <nav class="social-nav">
+        <ul>
+            <li>
+                <a href="https://github.com/Kunstmaan/KunstmaanBundlesCMS" target="_blank" rel="noopener">
+                    <?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>github - FontAwesome</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1"  fill-rule="evenodd" transform="translate(0, 1)">
+        <g id="Regions/Desktop/Header-pp" transform="translate(-1230.000000, -82.000000)">
+            <g id="navigation">
+                <path d="M1255.11719,94.2849166 C1255.11719,96.9649959 1254.32238,99.3754295 1252.73275,101.51629 C1251.14311,103.65715 1249.08964,105.138646 1246.57227,105.960821 C1246.2793,106.014209 1246.065,105.976838 1245.92936,105.848707 C1245.79373,105.720576 1245.72591,105.560414 1245.72591,105.368217 L1245.72591,101.988771 C1245.72591,100.953044 1245.4438,100.194945 1244.87956,99.7144526 C1245.49805,99.6503869 1246.05414,99.5542899 1246.54785,99.4261586 C1247.04156,99.2980273 1247.55154,99.0898171 1248.0778,98.8015217 C1248.60406,98.5132263 1249.04351,98.1582012 1249.39616,97.7364358 C1249.74881,97.3146703 1250.03635,96.7541043 1250.25879,96.0547211 C1250.48123,95.3553378 1250.59245,94.55186 1250.59245,93.6442634 C1250.59245,92.352273 1250.16385,91.252496 1249.30664,90.3448994 C1249.70812,89.3732371 1249.66472,88.2841376 1249.17643,87.077568 C1248.87261,86.9814695 1248.43316,87.0401955 1247.85807,87.2537476 C1247.28298,87.4672998 1246.78386,87.7022036 1246.36068,87.9584662 L1245.74219,88.3428581 C1244.73307,88.0652403 1243.69141,87.9264335 1242.61719,87.9264335 C1241.54296,87.9264335 1240.50131,88.0652403 1239.49219,88.3428581 C1239.31858,88.2254044 1239.088,88.0812589 1238.80046,87.9104172 C1238.51291,87.7395755 1238.0599,87.5340346 1237.44141,87.2937885 C1236.82291,87.0535423 1236.35634,86.9814695 1236.04167,87.077568 C1235.56423,88.2841376 1235.52626,89.3732371 1235.92773,90.3448994 C1235.07053,91.252496 1234.64193,92.352273 1234.64193,93.6442634 C1234.64193,94.55186 1234.75315,95.3526685 1234.97559,96.0467129 C1235.19803,96.7407574 1235.48285,97.3013233 1235.83008,97.7284276 C1236.1773,98.1555319 1236.61404,98.5132263 1237.1403,98.8015217 C1237.66656,99.0898171 1238.17654,99.2980273 1238.67025,99.4261586 C1239.16396,99.5542899 1239.72005,99.6503869 1240.33854,99.7144526 C1239.90451,100.098846 1239.63867,100.648735 1239.54102,101.364135 C1239.31315,101.470911 1239.06901,101.550991 1238.80859,101.60438 C1238.54818,101.657768 1238.23893,101.684461 1237.88086,101.684461 C1237.52278,101.684461 1237.16743,101.569679 1236.81478,101.34011 C1236.46213,101.110542 1236.16103,100.776871 1235.91146,100.339089 C1235.70529,99.997406 1235.44217,99.7197924 1235.12207,99.5062403 C1234.80197,99.2926881 1234.53342,99.1645588 1234.31641,99.1218483 L1233.99089,99.0737993 C1233.76302,99.0737993 1233.60569,99.0978236 1233.51888,99.1458728 C1233.43207,99.1939221 1233.40495,99.2553174 1233.4375,99.3300606 C1233.47005,99.4048039 1233.51888,99.479546 1233.58398,99.5542893 C1233.64909,99.6290325 1233.71962,99.6930972 1233.79557,99.7464852 L1233.90951,99.8265669 C1234.14822,99.9333429 1234.38422,100.136214 1234.61751,100.435187 C1234.8508,100.73416 1235.0217,101.006435 1235.13021,101.25202 L1235.29297,101.620396 C1235.43403,102.026145 1235.67274,102.354476 1236.00911,102.6054 C1236.34549,102.856324 1236.70898,103.016486 1237.09961,103.08589 C1237.49024,103.155295 1237.86729,103.192666 1238.23079,103.198004 C1238.59429,103.203343 1238.8954,103.184658 1239.13411,103.141947 L1239.50846,103.077882 C1239.50846,103.483631 1239.51118,103.958777 1239.5166,104.503335 C1239.52203,105.047893 1239.52474,105.336184 1239.52474,105.368217 C1239.52474,105.560414 1239.45421,105.720576 1239.31315,105.848707 C1239.17209,105.976838 1238.95508,106.014209 1238.66211,105.960821 C1236.14474,105.138646 1234.09126,103.65715 1232.50163,101.51629 C1230.91199,99.3754295 1230.11719,96.9649959 1230.11719,94.2849166 C1230.11719,92.0532968 1230.67599,89.9952189 1231.79362,88.1106213 C1232.91125,86.2260237 1234.42762,84.7338505 1236.34277,83.634057 C1238.25793,82.5342635 1240.34938,81.984375 1242.61719,81.984375 C1244.88499,81.984375 1246.97644,82.5342635 1248.8916,83.634057 C1250.80676,84.7338505 1252.32313,86.2260237 1253.44076,88.1106213 C1254.55838,89.9952189 1255.11719,92.0532968 1255.11719,94.2849166 Z" id="github---FontAwesome"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+                </a>
+            </li>
+            <li>
+                <a href="/slack-invite" target="_blank" rel="noopener">
+                    <?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>slack - FontAwesome</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0, 1)">
+        <g id="Regions/Desktop/Header-pp" transform="translate(-1279.000000, -82.000000)">
+            <g id="navigation" transform="translate(785.000000, 55.000000)">
+                <path d="M516.025841,38.1766827 C516.621998,38.1766827 517.119589,38.3713923 517.51863,38.7608173 C517.91767,39.1502423 518.117187,39.6382182 518.117187,40.2247596 C518.117187,41.1574566 517.670077,41.7824503 516.775841,42.0997596 L514.295072,42.9507212 L515.102764,45.359375 C515.170072,45.5612991 515.203726,45.7872584 515.203726,46.0372596 C515.203726,46.6045701 515.001805,47.0949499 514.597957,47.5084135 C514.194109,47.9218771 513.708536,48.1286058 513.141226,48.1286058 C512.689301,48.1286058 512.278247,47.9987994 511.908053,47.7391827 C511.537859,47.479566 511.28065,47.1334156 511.136418,46.7007212 L510.343149,44.3209135 L505.871995,45.8497596 L506.665264,48.2151442 C506.742188,48.4459146 506.780649,48.6718739 506.780649,48.8930288 C506.780649,49.4603394 506.578728,49.9507191 506.17488,50.3641827 C505.771032,50.7776463 505.280652,50.984375 504.703726,50.984375 C504.251801,50.984375 503.843151,50.8545686 503.477764,50.5949519 C503.112378,50.3353352 502.857573,49.9891849 502.713341,49.5564904 L501.920072,47.2055288 L499.713341,47.9699519 C499.434494,48.0564908 499.194112,48.0997596 498.992187,48.0997596 C498.405646,48.0997596 497.91767,47.9074538 497.528245,47.5228365 C497.13882,47.1382192 496.944111,46.6526472 496.944111,46.0661058 C496.944111,45.6141804 497.076321,45.2055307 497.340745,44.8401442 C497.60517,44.4747578 497.948916,44.2199526 498.371995,44.0757212 L500.621995,43.3112981 L499.107572,38.796875 L496.857572,39.5757212 C496.607571,39.6526446 496.376804,39.6911058 496.165264,39.6911058 C495.588338,39.6911058 495.102766,39.4963962 494.708534,39.1069712 C494.314301,38.7175461 494.117188,38.2343779 494.117188,37.6574519 C494.117188,37.2055266 494.249398,36.7968768 494.513822,36.4314904 C494.778247,36.0661039 495.121993,35.8112988 495.545072,35.6670673 L497.809495,34.9026442 L497.045072,32.609375 C496.968149,32.3786046 496.929688,32.1526453 496.929688,31.9314904 C496.929688,31.3545644 497.131609,30.8617809 497.535457,30.453125 C497.939305,30.0444691 498.429685,29.8401442 499.006611,29.8401442 C499.458536,29.8401442 499.867186,29.9699506 500.232572,30.2295673 C500.597959,30.489184 500.852764,30.8353344 500.996995,31.2680288 L501.775841,33.5757212 L506.246995,32.0612981 L505.468149,29.7536058 C505.391226,29.5228354 505.352764,29.2968761 505.352764,29.0757212 C505.352764,28.5084106 505.557089,28.0180309 505.965745,27.6045673 C506.374401,27.1911037 506.862377,26.984375 507.429687,26.984375 C507.881613,26.984375 508.292666,27.1165852 508.662861,27.3810096 C509.033055,27.645434 509.290264,27.9891806 509.434495,28.4122596 L510.198918,30.734375 L512.535457,29.9411058 C512.737381,29.8834132 512.94411,29.8545673 513.155649,29.8545673 C513.732575,29.8545673 514.225359,30.0444693 514.634014,30.4242788 C515.04267,30.8040884 515.246995,31.2776414 515.246995,31.8449519 C515.246995,32.2776464 515.102766,32.6694694 514.814303,33.0204327 C514.52584,33.371396 514.170074,33.6189897 513.746995,33.7632212 L511.482572,34.5420673 L512.996995,39.0997596 L515.36238,38.2920673 C515.59315,38.2151438 515.814302,38.1766827 516.025841,38.1766827 Z M504.573918,41.9555288 L509.045072,40.4411058 L507.530649,35.8978365 L503.059495,37.4411058 L504.573918,41.9555288 Z" id="slack---FontAwesome"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+        <aside class="main-header__mobile-controls">
+    <button class="main-header__mobile-controls__item main-header__mobile-controls__item--open js-mobile-nav-trigger">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16">
+    <path fill-rule="evenodd" fill="#000000" d="M6 .875h12v2.25H6zm-6 6h12v2.25H0zm6 6h12v2.25H6z"/>
+</svg>
+    </button>
+</aside>
+    </div>
+</header>
+    
+        
+        
+        <main>
+                    <div class="header-pp">
+    <div class="container">
+        <h3 class="header-pp__header" id="not-convinced-yet">
+            Not convinced yet?
+        </h3>
+    </div>
+</div>
+        <div class="header-pp">
+    <div class="container">
+        <h2 class="header-pp__header" id="weve-got-awesome-features">
+            We&#039;ve got awesome features!
+        </h2>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e5fa7ef49712/pageparts.webp?originalExtension=jpg" alt="Advanced content management">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">Advanced content management</h2>
+                                    <p>The content management system uses a “building block” concept for managing page content. This allows the creation of truly flexible page building blocks that can abstract away the technical implementation details from the user and by doing so, guide the user (often without a technical background) to publish the content within the style of the website.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object--reversed">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e5fa7ef0cda0/media-manager.webp?originalExtension=jpg" alt="Integrated media manager">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">Integrated media manager</h2>
+                                    <p>A website will contain all kinds of media: images, video, presentations, files. The platform provides a manager so you can store these images, presentations, audio, videos and ordinary files in a structured manner. These media objects can then be integrated easily into the content by means of the building blocks.</p>
+
+<p>We even go one step further and don’t consider it reasonable to ask you to buy an expensive image editor for successful management of your site content. That’s why we’ve integrated a full editor into the platform so you have everything on hand to manipulate the images on your website without additional tools.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e5fa7ef246c5/menu-management.webp?originalExtension=jpg" alt="Flexible menu management">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">Flexible menu management</h2>
+                                    <p>Site administrators can publish pages themselves in the site navigation. Provided the layout allows it, they can create pages, sub-pages and even whole sections whether for a limited time or not. Not only pages can be included in these menus, but redirects to other pages or special modules can also be added to this tree structure.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object--reversed">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e4682b1d1b78/dashboard.webp?originalExtension=png" alt="Google Analytics dashboard">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">Google Analytics dashboard</h2>
+                                    <p>The first page in the administration area is a dashboard that can be linked directly to your Google Analytics account. This way monitoring the most relevant usage and conversion numbers of your website in a single glance is fast and easy.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e5fa7ef35ffd/metadata.webp?originalExtension=jpg" alt="Extensive metadata options">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">Extensive metadata options</h2>
+                                    <p>Annotating content with metadata for social sharing and SEO purposes cannot be overlooked nowadays. Every page in the CMS contains editing functionality for OpenGraph data, meta descriptions, keywords and titles. Because the metatagging and tracking options are always changing, a free field to add custom header information is provided as well.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object--reversed">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e5fa7ef6e11b/user-managed-form-builder.webp?originalExtension=jpg" alt="">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">A form builder for administrators</h2>
+                                    <p>Managing forms, fields and their submissions by the user is a key functionality for a website. Creating and managing them often requires the intervention of technical personnel. This is simply unacceptable in many situations. That’s why our platform contains a module to create forms entirely yourself in the same tree structure as your website and using the same building block concept as the pages, without having to worry about the technical side of things.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+        <div class="spacer-pp">
+    <div class="spacer-xl"></div>
+</div>
+        
+<div class="media-with-content-pp media-with-content-pp--none">
+    <div class="container container--full-width">
+        <div class=" media-with-content-pp__container media-object">
+                            <figure class="media-object__media media-with-content-pp__media">
+                    <img src="/uploads/cache/media_with_content/uploads/media/5e5fa7eea10f8/51ee9e4601ce7.webp?originalExtension=png" alt="">
+                </figure>
+                        <div class="media-with-content-pp__body media-object__body ">
+                                <h2 class="page-section-header__sub-title media-with-content-pp__sub-title ">Rapid development with generators and docs</h2>
+                                    <p>Advanced functionality is very important, but being able to deploy working code using these features is at least as important. That’s why we are providing code generator commands through the CLI, documentation about the code and usage and even complete guides to start your project. This way you can get started on adding value for your client within a few hours.</p>
+                                            </div>
+        </div>
+    </div>
+</div>
+
+
+    </main>
+
+                <footer class="footer">
+        <section class="sub-footer">
+        <div class="sub-footer__inner">
+            <p class="sub-footer__credentials text--small">
+                <a href="https://kunstmaan.be" class="sub-footer__credentials__link" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#02A0E6" d="M45.073 2.912c-3.88-3.883-10.173-3.883-14.054 0-3.88 3.882-3.88 10.176 0 14.058L38.046 24l7.027-7.03c3.881-3.882 3.881-10.176 0-14.058"/>
+        <path fill="#FA1A57" d="M9.938 19.882a9.905 9.905 0 0 0 7.026-2.911h.001v-.001l2.911-2.911V9.94c0-5.49-4.45-9.94-9.938-9.94S0 4.45 0 9.94c0 5.491 4.45 9.942 9.938 9.942"/>
+        <path fill="#2BBEFF" d="M45.145 31.117l.008-.008-.603-.603L38.046 24l-7.027-7.03c-3.88-3.882-3.88-10.176 0-14.058l-7.027 7.03-4.116 4.117-2.91 2.91-.001.001a9.904 9.904 0 0 1-7.027 2.912C4.45 19.882 0 15.432 0 9.942v28.116c0-2.544.97-5.088 2.91-7.03 3.882-3.882 10.174-3.882 14.055 0l7.027 7.03 6.504 6.506.603.603.008-.008c3.887 3.8 10.113 3.783 13.966-.072 3.854-3.855 3.871-10.083.072-13.971"/>
+        <path fill="#08D6E5" d="M2.911 31.03c-3.88 3.882-3.88 10.176 0 14.058 3.881 3.882 10.173 3.882 14.054 0l7.027-7.029-7.027-7.03c-3.88-3.882-10.173-3.882-14.054 0"/>
+    </g>
+</svg>
+                </a>
+                Powered by Kunstmaan CMS
+
+                &copy; 2023
+                                                                            </p>
+        </div>
+
+        <div class="sub-footer__cookies">
+                    </div>
+    </section>
+
+</footer>
+
+                
+                    <div class="modal micromodal-slide" id="modal-demo-time" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-demo-time-title">
+                <header class="modal__header">
+                                                        <h2>Demo time!</h2>
+            <h3>Go ahead and give our demo a test drive</h3>
+        
+                                        <button class="modal__close" aria-label="Close modal" data-micromodal-close>
+                        <svg width="16" height="15" viewBox="0 0 16 15" xmlns="http://www.w3.org/2000/svg">
+    <g fill-rule="nonzero">
+        <path d="M2.432-.034L15.16 12.693l-2.12 2.123L.308 2.086l2.123-2.12zm-.001 2.121h.708l-.707.707-.001-.707zm10.606 9.9v.707h-.705l.705-.708z"/>
+        <path d="M.84 12.693L13.569-.034l2.123 2.12L2.962 14.815.841 12.693zM12.862 2.088h.708v.705l-.708-.705zm-9.899 9.898l.707.707-.707.707-.707-.707.707-.707z"/>
+    </g>
+</svg>
+                    </button>
+                </header>
+                <main class="modal__content" id="modal-demo-time-content">
+                                                        <div class="modal-demo">
+                <div class="modal-demo__sections">
+                    <div>
+                        <a class="modal-demo__sections__img" href="https://demo.kunstmaancms.be/en" target="_blank" rel="noopener">
+                            <img src="/uploads/cache/image_small_webp/build/img/general/screenshots/frontend.c32dbe6e.webp?originalExtension=jpg" alt="frontend">
+                            <span>Visit the website</span>
+                        </a>
+                        <a href="https://demo.kunstmaancms.be/en" class="btn--primary--xs" target="_blank" rel="noopener">
+                            Frontend
+                        </a>
+                    </div>
+                    <div>
+                        <a class="modal-demo__sections__img" href="https://demo.kunstmaancms.be/en/admin" target="_blank" rel="noopener">
+                            <img src="/uploads/cache/image_small_webp/build/img/general/screenshots/backend.8fb93ea4.webp?originalExtension=jpg" alt="backend">
+                            <span>Visit the website</span>
+                        </a>
+                        <a href="https://demo.kunstmaancms.be/en/admin" class="btn--primary--xs" target="_blank" rel="noopener">
+                            Admin area
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-demo__footer">
+                    <p>
+    Admin username: <strong>admin</strong><br />
+    Admin password: <strong>admin</strong>
+</p> <p>
+    <small>Note: the demo will automatically reset every hour!</small>
+</p>
+
+                </div>
+            </div>
+        
+                                    </main>
+            </div>
+        </div>
+    </div>
+        
+
+                    <script src="/build/runtime.cea2fc05.js" defer></script><script src="/build/167.4ae8adf6.js" defer></script><script src="/build/app.47d47e3e.js" defer></script>
+    </body>
+</html>
